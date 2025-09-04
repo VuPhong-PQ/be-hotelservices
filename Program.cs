@@ -62,9 +62,12 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("https://vuphong-pq.github.io")
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy.WithOrigins(
+            "https://vuphong-pq.github.io",
+            "https://www.vuphong-pq.github.io"
+        )
+        .AllowAnyHeader()
+        .AllowAnyMethod();
     });
 });
 
