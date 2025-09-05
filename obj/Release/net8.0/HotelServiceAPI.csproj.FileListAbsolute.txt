@@ -290,3 +290,8 @@ D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\obj\Release\net8
 D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\obj\Release\net8.0\HotelServiceAPI.pdb
 D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\obj\Release\net8.0\HotelServiceAPI.genruntimeconfig.cache
 D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\obj\Release\net8.0\ref\HotelServiceAPI.dll
+D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\bin\Release\net8.0\out\web.config
+D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\bin\Release\net8.0\out\appsettings.json
+D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\bin\Release\net8.0\out\HotelServiceAPI.deps.json
+D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\bin\Release\net8.0\out\HotelServiceAPI.runtimeconfig.json
+D:\laptrinh\DoAnFull\DoAn-HotelServices\backend\HotelServiceAPI\bin\Release\net8.0\out\HotelServiceAPI.staticwebassets.endpoints.json

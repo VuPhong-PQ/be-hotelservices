@@ -6,7 +6,6 @@ using HotelServiceAPI.Data;
 using HotelServiceAPI.Repositories;
 using HotelServiceAPI.Services;
 using HotelServiceAPI.Models;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
