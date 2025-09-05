@@ -109,22 +109,8 @@ app.UseStaticFiles(new StaticFileOptions
 // Auto migrate và seed data (tạo user tự động mỗi khi run API)
 using (var scope = app.Services.CreateScope())
 {
-    try
-    {
-        var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-        Console.WriteLine("🔄 Migrating database...");
-        context.Database.Migrate();
-        // Seed admin user only nếu có hàm này trong ApplicationDbContext
-        if (context.GetType().GetMethod("SeedAdminUser") != null)
-        {
-            context.SeedAdminUser();
-        }
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine($"❌ Database setup failed: {ex.Message}");
-        Console.WriteLine($"Stack trace: {ex.StackTrace}");
-    }
+    var db = scope.ServiceProvider.GetRequiredService<HotelDbContext>();
+    db.Database.Migrate();
 }
 
 // Configure pipeline
